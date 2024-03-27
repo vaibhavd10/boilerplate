@@ -11,8 +11,9 @@ const Stack = createNativeStackNavigator<HomeStackParamList>();
 
 const MainStack = () => (
   <>
+    {/* <Stack.Screen name="Home" component={Screens.Camera} /> */}
     <Stack.Screen name="Home" component={Screens.Home} />
-    <Stack.Screen name="PostDetails" component={Screens.PostDetails} />
+    <Stack.Screen name="PostDetails" component={Screens.CameraTry} />
   </>
 );
 
